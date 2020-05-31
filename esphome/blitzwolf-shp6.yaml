@@ -74,6 +74,8 @@ sensor:
       number: GPIO12
       inverted: True
     cf_pin: GPIO05
+#   model 10A - cf1_pin: GPIO14
+#   model 15A - cf1_pin: GPIO04
     cf1_pin: GPIO14
     current_resistor: ${current_res}
     voltage_divider: ${voltage_div}
